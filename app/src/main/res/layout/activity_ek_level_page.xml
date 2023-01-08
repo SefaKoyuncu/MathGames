@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/renk6"
+    tools:context=".EkLevelPage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bungee"
+                android:letterSpacing="0.2"
+                android:text="LEVELS"
+                android:textAlignment="center"
+                android:textColor="@color/turuncu"
+                android:textSize="40sp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cl1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/level_cerceve_turuncu">
+
+                <TextView
+                    android:id="@+id/textViewNumberlv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:fontFamily="@font/bungee"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:paddingLeft="12dp"
+                    android:text="1"
+                    android:textAlignment="center"
+                    android:textColor="@color/turuncu"
+                    android:textSize="60sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animationViewL1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="20"
+                    android:foregroundGravity="center"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textViewNumberlv1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/ari" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cl2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/level_cerceve_turuncu">
+
+                <TextView
+                    android:id="@+id/textViewNumberlv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:fontFamily="@font/bungee"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:paddingLeft="12dp"
+                    android:text="2"
+                    android:textAlignment="center"
+                    android:textColor="@color/turuncu"
+                    android:textSize="60sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textViewNumberlv2"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationViewL2_2"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="80"
+                        android:foregroundGravity="center"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/ari" />
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationViewL2"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="20"
+                        android:foregroundGravity="center"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/animationViewL2_2"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/ari" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cl3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/level_cerceve_turuncu">
+
+                <TextView
+                    android:id="@+id/textViewNumberlv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:fontFamily="@font/bungee"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:paddingLeft="12dp"
+                    android:text="3"
+                    android:textAlignment="center"
+                    android:textColor="@color/turuncu"
+                    android:textSize="60sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animationViewL3_3"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="80"
+                    android:foregroundGravity="center"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textViewNumberlv3"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/ari" />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animationViewL3"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="20"
+                    android:foregroundGravity="center"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/animationViewL3_3"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/ari" />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animationViewL3_2"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="80"
+                    android:foregroundGravity="center"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/animationViewL3"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/ari" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cl4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/level_cerceve_turuncu">
+
+                <TextView
+                    android:id="@+id/textViewNumberlv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:fontFamily="@font/bungee"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:paddingLeft="12dp"
+                    android:text="4"
+                    android:textAlignment="center"
+                    android:textColor="@color/turuncu"
+                    android:textSize="60sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textViewNumberlv4"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationViewL4_4"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="80"
+                        android:foregroundGravity="center"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/animationViewL4_3"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/ari" />
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationViewL4_3"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="20"
+                        android:foregroundGravity="center"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/ari" />
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationViewL4_1"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="20"
+                        android:foregroundGravity="center"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/animationViewL4_4"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/ari" />
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animationViewL4_2"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="80"
+                        android:foregroundGravity="center"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/animationViewL4_1"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/ari" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

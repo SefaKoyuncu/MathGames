@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/renk6"
+    tools:context=".GamePage">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayoutParts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewQuestionCounter">
+
+        <TextView
+            android:id="@+id/textViewQuestion_part2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:fontFamily="@font/bungee"
+            android:text="+"
+            android:textColor="@color/textColor"
+            android:textSize="32sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewQuestion_part1"
+            app:layout_constraintStart_toEndOf="@+id/textViewQuestion_part1"
+            app:layout_constraintTop_toTopOf="@+id/textViewQuestion_part1"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textViewQuestion_part1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bungee"
+            android:text="15 "
+            android:textColor="@color/textColor"
+            android:textSize="32sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewQuestion_part3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:fontFamily="@font/bungee"
+            android:text="15 "
+            android:textColor="@color/textColor"
+            android:textSize="32sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewQuestion_part1"
+            app:layout_constraintStart_toEndOf="@+id/textViewQuestion_part2"
+            app:layout_constraintTop_toTopOf="@+id/textViewQuestion_part1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/constraintLayout1"
+        app:layout_constraintStart_toEndOf="@+id/textViewOperator"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout1">
+
+        <ImageView
+            android:id="@+id/iv10"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv11"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/iv10"
+            app:layout_constraintTop_toTopOf="@+id/iv10"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv12"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="12dp"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv11"
+            app:layout_constraintTop_toTopOf="@+id/iv11"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv13"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="@+id/iv10"
+            app:layout_constraintTop_toBottomOf="@+id/iv10"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv14"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="@+id/iv11"
+            app:layout_constraintTop_toTopOf="@+id/iv13"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv15"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/iv12"
+            app:layout_constraintTop_toTopOf="@+id/iv14"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv16"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="@+id/iv13"
+            app:layout_constraintTop_toBottomOf="@+id/iv13"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv17"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="@+id/iv14"
+            app:layout_constraintTop_toTopOf="@+id/iv16"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv18"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/iv15"
+            app:layout_constraintTop_toTopOf="@+id/iv17"
+            app:srcCompat="@drawable/animal1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="10dp"
+        android:rotationY="-180"
+        app:layout_constraintEnd_toStartOf="@+id/textViewOperator"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayoutParts">
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/iv1"
+            app:layout_constraintTop_toTopOf="@+id/iv1"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="12dp"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv2"
+            app:layout_constraintTop_toTopOf="@+id/iv2"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="@+id/iv1"
+            app:layout_constraintTop_toBottomOf="@+id/iv1"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="@+id/iv2"
+            app:layout_constraintTop_toTopOf="@+id/iv4"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/iv3"
+            app:layout_constraintTop_toTopOf="@+id/iv5"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="@+id/iv4"
+            app:layout_constraintTop_toBottomOf="@+id/iv4"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv8"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="@+id/iv5"
+            app:layout_constraintTop_toTopOf="@+id/iv7"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv9"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/iv6"
+            app:layout_constraintTop_toTopOf="@+id/iv8"
+            app:srcCompat="@drawable/animal1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textViewLevelCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bungee"
+        android:text="L:"
+        android:textColor="@color/textColor"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewTime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewTime"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/buttonB"
+        android:layout_width="173dp"
+        android:layout_height="100dp"
+        android:background="@drawable/button_cerceve"
+        android:fontFamily="@font/bungee"
+        android:text="B"
+        android:textColor="@color/textColor"
+        android:textSize="28sp"
+        app:backgroundTint="@color/turuncu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonA"
+        app:layout_constraintTop_toTopOf="@+id/buttonA" />
+
+    <Button
+        android:id="@+id/buttonA"
+        android:layout_width="173dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_cerceve"
+        android:fontFamily="@font/bungee"
+        android:text="A"
+        android:textColor="@color/textColor"
+        android:textSize="28sp"
+        app:backgroundTint="@color/turuncu"
+        app:layout_constraintBottom_toTopOf="@+id/buttonC"
+        app:layout_constraintEnd_toStartOf="@+id/buttonB"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonD"
+        android:layout_width="173dp"
+        android:layout_height="100dp"
+        android:background="@drawable/button_cerceve"
+        android:fontFamily="@font/bungee"
+        android:text="D"
+        android:textColor="@color/textColor"
+        android:textSize="28sp"
+        app:backgroundTint="@color/turuncu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonA"
+        app:layout_constraintTop_toTopOf="@+id/buttonC" />
+
+    <Button
+        android:id="@+id/buttonC"
+        android:layout_width="173dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_cerceve"
+        android:fontFamily="@font/bungee"
+        android:text="C"
+        android:textColor="@color/textColor"
+        android:textSize="28sp"
+        app:backgroundTint="@color/turuncu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonD"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonEquals"
+        android:layout_width="173dp"
+        android:layout_height="100dp"
+        android:background="@drawable/button_cerceve"
+        android:fontFamily="@font/bungee"
+        android:text="="
+        android:textColor="@color/textColor"
+        android:textSize="28sp"
+        android:visibility="invisible"
+        app:backgroundTint="@color/turuncu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/buttonD" />
+
+
+    <TextView
+        android:id="@+id/textViewQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/bungee"
+        android:text="15 + 10 = ?"
+        android:textColor="@color/textColor"
+        android:textSize="32sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewQuestionCounter" />
+
+    <ProgressBar
+        android:id="@+id/time"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:progressBackgroundTint="@color/white"
+        android:progressTint="#186A02"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ProgressBar>
+
+    <TextView
+        android:id="@+id/textViewQuestionCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bungee"
+        android:text="Q: 1"
+        android:textColor="@color/textColor"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewTime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewTime" />
+
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/bungee"
+        android:text="10"
+        android:textColor="@color/textColor"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/time"
+        app:srcCompat="@drawable/timer" />
+
+    <ImageView
+        android:id="@+id/imageViewfalse"
+        android:layout_width="173dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_cerceve"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewtrue"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/false_image" />
+
+    <ImageView
+        android:id="@+id/imageViewtrue"
+        android:layout_width="173dp"
+        android:layout_height="100dp"
+        android:background="@drawable/button_cerceve"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewfalse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewfalse"
+        app:layout_constraintTop_toTopOf="@+id/imageViewfalse"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/true_image" />
+
+
+    <TextView
+        android:id="@+id/textViewOperator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bungee"
+        android:text="+"
+        android:textColor="@color/turuncu"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/constraintLayoutParts"
+        app:layout_constraintStart_toStartOf="@+id/constraintLayoutParts"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayoutParts" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

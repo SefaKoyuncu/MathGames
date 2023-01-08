@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kogosoft.easymathprototip">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/easy_math_square_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/easy_math_round_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Easymathprototip">
+        <activity
+            android:name=".RhytmicCat"
+            android:exported="false" />
+        <activity
+            android:name=".PieceCat"
+            android:exported="false" />
+        <activity
+            android:name=".EkLevelPage"
+            android:exported="false" />
+        <activity
+            android:name=".ResultPage"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LevelPage"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GamePage"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CategoryPage"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4601944440701403~3596714014" />
+    </application>
+
+</manifest>

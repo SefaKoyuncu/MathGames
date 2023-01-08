@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/renk6"
+    tools:context=".RhytmicCat">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNum">
+
+        <ImageView
+            android:id="@+id/iv21_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv17_4"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv20_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/iv19_4"
+            app:layout_constraintTop_toBottomOf="@+id/iv13_4"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv19_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/iv18_4"
+            app:layout_constraintTop_toBottomOf="@+id/iv13_4"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv18_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/iv17_4"
+            app:layout_constraintTop_toBottomOf="@+id/iv13_4"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv17_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="8dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv13_4"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv16_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/iv15_4"
+            app:layout_constraintTop_toBottomOf="@+id/iv12_4"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv15_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/iv14_4"
+            app:layout_constraintTop_toBottomOf="@+id/iv12_4"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv14_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/iv13_4"
+            app:layout_constraintTop_toBottomOf="@+id/iv11_4"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv13_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="8dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv11_4"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv12_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/iv11_4"
+            app:layout_constraintTop_toBottomOf="@+id/iv8_4"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv11_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/iv10_4"
+            app:layout_constraintTop_toBottomOf="@+id/iv8_4"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv10_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/iv9_4"
+            app:layout_constraintTop_toBottomOf="@+id/iv8_4"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv9_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="8dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv5_4"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv8_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/iv7_4"
+            app:layout_constraintTop_toBottomOf="@+id/iv4_4"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv7_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/iv6_4"
+            app:layout_constraintTop_toBottomOf="@+id/iv4_4"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv6_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/iv5_4"
+            app:layout_constraintTop_toBottomOf="@+id/iv3_4"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv1_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv2_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/iv1_4"
+            app:layout_constraintTop_toTopOf="@+id/iv1_4"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv3_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/iv2_4"
+            app:layout_constraintTop_toTopOf="@+id/iv2_4"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv4_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/iv3_4"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/animal1" />
+
+        <ImageView
+            android:id="@+id/iv5_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="8dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv1_4"
+            app:srcCompat="@drawable/animal1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textViewNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bungee"
+        android:letterSpacing="0.2"
+        android:text="2"
+        android:textAllCaps="false"
+        android:textColor="@color/turuncu"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/bungee"
+        android:gravity="center"
+        android:text="Let's count \nthe animals by 2"
+        android:textColor="@color/turuncu"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="53dp"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

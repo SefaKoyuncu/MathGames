@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/mmgoktas/Desktop/EasyMath-master/EasyMath-master/app/src/main/res/drawable/button_cerceve.xml" value="0.314" />
+        <entry key="..\:/Users/mmgoktas/Desktop/EasyMath-master/EasyMath-master/app/src/main/res/drawable/cerceve.xml" value="0.314" />
+        <entry key="..\:/Users/mmgoktas/Desktop/EasyMath-master/EasyMath-master/app/src/main/res/drawable/false_image.xml" value="0.314" />
+        <entry key="..\:/Users/mmgoktas/Desktop/EasyMath-master/EasyMath-master/app/src/main/res/drawable/ic_launcher_background.xml" value="0.314" />
+        <entry key="..\:/Users/mmgoktas/Desktop/EasyMath-master/EasyMath-master/app/src/main/res/drawable/kilit.xml" value="0.314" />
+        <entry key="..\:/Users/mmgoktas/Desktop/EasyMath-master/EasyMath-master/app/src/main/res/drawable/level_cerceve_gri.xml" value="0.314" />
+        <entry key="..\:/Users/mmgoktas/Desktop/EasyMath-master/EasyMath-master/app/src/main/res/drawable/level_cerceve_turuncu.xml" value="0.314" />
+        <entry key="..\:/Users/mmgoktas/Desktop/EasyMath-master/EasyMath-master/app/src/main/res/drawable/timer.xml" value="0.314" />
+        <entry key="..\:/Users/mmgoktas/Desktop/EasyMath-master/EasyMath-master/app/src/main/res/drawable/true_image.xml" value="0.314" />
+        <entry key="..\:/Users/mmgoktas/Desktop/EasyMath-master/EasyMath-master/app/src/main/res/layout-hdpi/activity_category_page.xml" value="0.5" />
+        <entry key="..\:/Users/mmgoktas/Desktop/EasyMath-master/EasyMath-master/app/src/main/res/layout-hdpi/activity_game_page.xml" value="0.75" />
+        <entry key="..\:/Users/mmgoktas/Desktop/EasyMath-master/EasyMath-master/app/src/main/res/layout-hdpi/activity_level_page.xml" value="0.67" />
+        <entry key="..\:/Users/mmgoktas/Desktop/EasyMath-master/EasyMath-master/app/src/main/res/layout-hdpi/activity_result_page.xml" value="0.32592592592592595" />
+        <entry key="..\:/Users/mmgoktas/Desktop/EasyMath-master/EasyMath-master/app/src/main/res/layout-xhdpi/activity_category_page.xml" value="0.33" />
+        <entry key="..\:/Users/mmgoktas/Desktop/EasyMath-master/EasyMath-master/app/src/main/res/layout-xhdpi/activity_game_page.xml" value="0.25" />
+        <entry key="..\:/Users/mmgoktas/Desktop/EasyMath-master/EasyMath-master/app/src/main/res/layout-xhdpi/activity_level_page.xml" value="0.5" />
+        <entry key="..\:/Users/mmgoktas/Desktop/EasyMath-master/EasyMath-master/app/src/main/res/layout-xhdpi/activity_result_page.xml" value="0.88" />
+        <entry key="..\:/Users/mmgoktas/Desktop/EasyMath-master/EasyMath-master/app/src/main/res/layout-xxhdpi/activity_category_page.xml" value="0.22" />
+        <entry key="..\:/Users/mmgoktas/Desktop/EasyMath-master/EasyMath-master/app/src/main/res/layout-xxhdpi/activity_game_page.xml" value="0.32592592592592595" />
+        <entry key="..\:/Users/mmgoktas/Desktop/EasyMath-master/EasyMath-master/app/src/main/res/layout-xxhdpi/activity_level_page.xml" value="0.25" />
+        <entry key="..\:/Users/mmgoktas/Desktop/EasyMath-master/EasyMath-master/app/src/main/res/layout-xxhdpi/activity_result_page.xml" value="0.25" />
+        <entry key="..\:/Users/mmgoktas/Desktop/EasyMath-master/EasyMath-master/app/src/main/res/layout/activity_category_page.xml" value="0.25" />
+        <entry key="..\:/Users/mmgoktas/Desktop/EasyMath-master/EasyMath-master/app/src/main/res/layout/activity_game_page.xml" value="0.33" />
+        <entry key="..\:/Users/mmgoktas/Desktop/EasyMath-master/EasyMath-master/app/src/main/res/layout/activity_level_ornek.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mmgoktas/Desktop/EasyMath-master/EasyMath-master/app/src/main/res/layout/activity_level_page.xml" value="0.25" />
+        <entry key="..\:/Users/mmgoktas/Desktop/EasyMath-master/EasyMath-master/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/mmgoktas/Desktop/EasyMath-master/EasyMath-master/app/src/main/res/layout/activity_moduller.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mmgoktas/Desktop/EasyMath-master/EasyMath-master/app/src/main/res/layout/activity_result_page.xml" value="0.25" />
+        <entry key="..\:/Users/mmgoktas/Desktop/EasyMath-master/EasyMath-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.196" />
+        <entry key="..\:/Users/mmgoktas/Desktop/apps/EasyMath/EasyMath-master/EasyMath-master/app/src/main/res/layout-xxhdpi/activity_level_page.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/mmgoktas/Desktop/apps/EasyMath/EasyMath-master/EasyMath-master/app/src/main/res/layout-xxhdpi/activity_result_page.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/mmgoktas/Desktop/apps/EasyMath/EasyMath-master/EasyMath-master/app/src/main/res/layout/activity_category_page.xml" value="1.45" />
+        <entry key="..\:/Users/mmgoktas/Desktop/apps/EasyMath/EasyMath-master/EasyMath-master/app/src/main/res/layout/activity_game_page.xml" value="1.45" />
+        <entry key="..\:/Users/mmgoktas/Desktop/apps/EasyMath/EasyMath-master/EasyMath-master/app/src/main/res/layout/activity_level_page.xml" value="1.45" />
+        <entry key="..\:/Users/mmgoktas/Desktop/apps/EasyMath/EasyMath-master/EasyMath-master/app/src/main/res/layout/activity_result_page.xml" value="1.45" />
+        <entry key="..\:/Users/sefak/AndroidStudioProjects/easymathprototip/app/src/main/res/drawable/button_cerceve.xml" value="0.188" />
+        <entry key="..\:/Users/sefak/AndroidStudioProjects/easymathprototip/app/src/main/res/drawable/cerceve.xml" value="0.106" />
+        <entry key="..\:/Users/sefak/AndroidStudioProjects/easymathprototip/app/src/main/res/drawable/false_image.xml" value="0.128" />
+        <entry key="..\:/Users/sefak/AndroidStudioProjects/easymathprototip/app/src/main/res/drawable/kilit.xml" value="0.1315" />
+        <entry key="..\:/Users/sefak/AndroidStudioProjects/easymathprototip/app/src/main/res/drawable/level_cerceve.xml" value="0.149" />
+        <entry key="..\:/Users/sefak/AndroidStudioProjects/easymathprototip/app/src/main/res/drawable/level_cerceve_gri.xml" value="0.188" />
+        <entry key="..\:/Users/sefak/AndroidStudioProjects/easymathprototip/app/src/main/res/drawable/true_image.xml" value="0.128" />
+        <entry key="..\:/Users/sefak/AndroidStudioProjects/easymathprototip/app/src/main/res/layout/activity_game_page.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/sefak/AndroidStudioProjects/easymathprototip/app/src/main/res/layout/activity_level_ornek.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/sefak/AndroidStudioProjects/easymathprototip/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/sefak/AndroidStudioProjects/easymathprototip/app/src/main/res/layout/activity_moduller.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/sefak/AndroidStudioProjects/easymathprototip/app/src/main/res/layout/activity_sonuc_ekrani.xml" value="0.22" />
+        <entry key="..\:/Users/sefak/Downloads/easymathapp-mmgoktas/app/src/main/res/drawable/button_cerceve.xml" value="0.125" />
+        <entry key="..\:/Users/sefak/Downloads/easymathapp-mmgoktas/app/src/main/res/drawable/cerceve.xml" value="0.125" />
+        <entry key="..\:/Users/sefak/Downloads/easymathapp-mmgoktas/app/src/main/res/layout-hdpi/activity_category_page.xml" value="0.14375" />
+        <entry key="..\:/Users/sefak/Downloads/easymathapp-mmgoktas/app/src/main/res/layout-xhdpi/activity_category_page.xml" value="0.2875" />
+        <entry key="..\:/Users/sefak/Downloads/easymathapp-mmgoktas/app/src/main/res/layout-xhdpi/activity_level_page.xml" value="0.2875" />
+        <entry key="..\:/Users/sefak/Downloads/easymathapp-mmgoktas/app/src/main/res/layout-xxhdpi/activity_category_page.xml" value="0.1573321932449765" />
+        <entry key="..\:/Users/sefak/Downloads/easymathapp-mmgoktas/app/src/main/res/layout-xxhdpi/activity_game_page.xml" value="0.22" />
+        <entry key="..\:/Users/sefak/Downloads/easymathapp-mmgoktas/app/src/main/res/layout-xxhdpi/activity_level_page.xml" value="0.1573321932449765" />
+        <entry key="..\:/Users/sefak/Downloads/easymathapp-mmgoktas/app/src/main/res/layout/activity_category_page.xml" value="0.7666666666666667" />
+        <entry key="..\:/Users/sefak/Downloads/easymathapp-mmgoktas/app/src/main/res/layout/activity_ek_level_page.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/sefak/Downloads/easymathapp-mmgoktas/app/src/main/res/layout/activity_piece_cat.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/sefak/Downloads/easymathapp-mmgoktas/app/src/main/res/layout/activity_rhytmic_cat.xml" value="0.1573321932449765" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
