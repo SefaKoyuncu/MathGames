@@ -68,11 +68,11 @@ public class ResultPage extends AppCompatActivity {
         MobileAds.initialize(this, new OnInitializationCompleteListener() {
             @Override
             public void onInitializationComplete(InitializationStatus initializationStatus) {
-                //loadRewardedAd();
+                loadRewardedAd();
             }
         });
 
-        //loadRewardedAd();
+        loadRewardedAd();
 
         submittedLevel = getIntent().getIntExtra("chosenLevel",0);      // gamePageden gelen leveli aldık
         submittedCategory = getIntent().getStringExtra("submittedCategory");        // gamePageden gelen kategoriyi aldık
@@ -142,7 +142,7 @@ public class ResultPage extends AppCompatActivity {
                     }
                     else {
                         Log.e("randomAds:1 ", String.valueOf(randomAds));
-                        //showRewardedAd();
+                        showRewardedAd();
                     }
                 }
             }
@@ -161,7 +161,7 @@ public class ResultPage extends AppCompatActivity {
                 }else {
                     Log.e("randomAds:1 ", String.valueOf(randomAds));
                     menuOrTry = "menu";
-                    //showRewardedAd();
+                    showRewardedAd();
                 }
 
             }

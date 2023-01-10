@@ -110,7 +110,7 @@ public class GamePage extends AppCompatActivity {
         MobileAds.initialize(this, new OnInitializationCompleteListener() {
             @Override
             public void onInitializationComplete(InitializationStatus initializationStatus) {
-                //loadRewardedAd();
+                loadRewardedAd();
             }
         });
 
@@ -190,7 +190,7 @@ public class GamePage extends AppCompatActivity {
 
             if (questionCounter>0 && adsCounter<3 && randomAds!=0){     // eğer soru sayısı belli bir soruyu geçtiyse ve aynı levelde gösterilen reklam sayısı 3 ten az ise buraya girip reklam gösterir
                 Log.e("randomAds",String.valueOf(randomAds));
-                //showRewardedAd();
+                showRewardedAd();
                 Log.e("adsCounter",String.valueOf(adsCounter));
             }else{
                 Intent intentt = new Intent(GamePage.this, ResultPage.class); // doğru cevap yanlış cevabı gönder
@@ -2736,7 +2736,7 @@ public class GamePage extends AppCompatActivity {
                                     questionCounter-=1;     // bir sayı düştük çünkü soruyu kontrol ederken controlCounter fonkdiyonunda 1 artırdı ancak tekrar aynı sorudan devam edecek onu burda düşürüyoruz
                                     control=0;      // yanlış yapınca kontrol 1 olmuştu bu yüzden getQuestion çalışmıyordu tekrar 0 yapıyoruzki controlCounter fonksiyonu içinde if (questionCounter!=20 && control==0) bu if in içine girsin ve getQuestion fonksiyonunu çalıştırsın diye
                                     isAdsWatchedOrNot=false;
-                                    //loadRewardedAd();       // burada tekrar reklam yüklüyoruz çünkü gamepage içerisinde hala ve tekrar yanarsa tekrar reklam hazır yüklü olsun diye
+                                    loadRewardedAd();       // burada tekrar reklam yüklüyoruz çünkü gamepage içerisinde hala ve tekrar yanarsa tekrar reklam hazır yüklü olsun diye
                                 }
                                 isAdsWatchedOrNot=false;
 
